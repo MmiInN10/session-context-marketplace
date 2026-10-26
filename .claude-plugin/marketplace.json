@@ -1,0 +1,14 @@
+{
+  "name": "session-context-marketplace",
+  "description": "세션 시작 때 브랜치·변경 파일·가상환경 상태를 Claude에게 자동으로 알려 주는 SessionStart 훅",
+  "owner": {
+    "name": "MmiInN10"
+  },
+  "plugins": [
+    {
+      "name": "session-context",
+      "source": "./plugins/session-context",
+      "description": "세션이 시작될 때 Git 브랜치, 변경 중인 파일, 최근 커밋, Python 가상환경 상태를 Claude의 맥락에 자동으로 넣어 주는 SessionStart 훅"
+    }
+  ]
+}

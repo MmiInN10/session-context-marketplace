@@ -1,0 +1,8 @@
+{
+  "name": "session-context",
+  "description": "세션이 시작될 때 Git 브랜치, 변경 중인 파일, 최근 커밋, Python 가상환경 상태를 Claude의 맥락에 자동으로 넣어 주는 SessionStart 훅",
+  "version": "1.0.0",
+  "author": {
+    "name": "MmiInN10"
+  }
+}

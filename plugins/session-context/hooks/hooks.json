@@ -1,0 +1,15 @@
+{
+  "description": "세션 시작 때 브랜치·변경 파일·가상환경 상태를 Claude 맥락에 주입",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell -NoProfile -WindowStyle Hidden -ExecutionPolicy Bypass -File \"${CLAUDE_PLUGIN_ROOT}/hooks/session-context.ps1\""
+          }
+        ]
+      }
+    ]
+  }
+}
